@@ -1,0 +1,21 @@
+.DS_Store
+*.Rhistory
+*.RData
+analysis/*.png
+
+# Website stays on Vercel only; keep local for deploys, never commit
+node_modules/
+.next/
+.vercel/
+src/
+public/
+package.json
+package-lock.json
+next.config.ts
+next-env.d.ts
+tsconfig.json
+postcss.config.mjs
+eslint.config.mjs
+vercel.json
+AGENTS.md
+CLAUDE.md
